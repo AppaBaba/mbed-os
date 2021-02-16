@@ -201,14 +201,15 @@ typedef enum {
 
     // Generic signals namings
     LED1        = PB_2,
-    LED2        = PB_10,
-    LED3        = NC,
-    LED_RED     = LED1,
-    LED_BLUE    = LED2,
-    USER_BUTTON = PC_13,
+    LED2        = PA_15,
+    LED3        = PC_13,
+    LED_Green   = LED1,
+    LED_Blue    = LED2,
+    Key2 = PA_4,
+    Key3 = PA_10,
 
     // Standardized button names
-    BUTTON1 = USER_BUTTON,
+    BUTTON_A = Key2,
 
     SERIAL_TX   = P_8,
     SERIAL_RX   = P_12,
