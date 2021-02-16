@@ -199,23 +199,28 @@ typedef enum {
     ADC_VBAT = 0xF2,
 
 
-    // Generic signals namings
+    // LEDs and RGB names and ports
     LED1        = PB_2,
     LED2        = PA_15,
     LED3        = PC_13,
     LED_Green   = LED1,
     LED_Blue    = LED2,
+    RedRGB      = PB_4,
+    GreenRGB    = PB_3,
+    BlueRGB     = PC_7,
+    // name of Button A and B in Schematics
     Key2 = PA_4,
     Key3 = PA_10,
 
-    // Standardized button names
-    BUTTON_A = Key2,
+    // button names
+    ButtonA = Key2,
+    ButtonB = Key3,
 
     SERIAL_TX   = P_8,
     SERIAL_RX   = P_12,
 
-    I2C_SCL     = P_17,
-    I2C_SDA     = P_18,
+    I2C_SCL     = PB_8,
+    I2C_SDA     = PB_9,
 
     SPI_MOSI    = P_4,
     SPI_MISO    = P_7,
