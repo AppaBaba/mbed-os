@@ -233,7 +233,7 @@ typedef enum {
 #elif MBED_CONF_TARGET_USB_TX
     STDIO_UART_TX = MBED_CONF_TARGET_USB_TX,
 #else
-    STDIO_UART_TX = PC_6,
+    STDIO_UART_TX = PA_11,
 #endif
 
 #ifdef MBED_CONF_TARGET_STDIO_UART_RX
@@ -241,7 +241,7 @@ typedef enum {
 #elif MBED_CONF_TARGET_USB_RX
     STDIO_UART_TX = MBED_CONF_TARGET_USB_RX,
 #else
-    STDIO_UART_RX = PC_7,
+    STDIO_UART_RX = PA_12,
 #endif
     //DAPLink
     USBRX      = STDIO_UART_RX,
